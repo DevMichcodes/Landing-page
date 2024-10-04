@@ -37,11 +37,41 @@ li{
     background-color: beige;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 700px;
 }
 .details{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 80px;
+    align-items: center;
+}
+.service{
+    border: 6px solid yellow;
+    border-radius: 30%;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: darkgoldenrod;
+}
+.quote{
+    background-color: darkslategrey;
+    height: 100px;
+    width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    
+}
+.action{
+    height: 100px;
+    width: 900px;  
+    background-color: blue;
+    margin: 50px auto;
+    padding: 40px;
+}
+footer{
+    text-align: center;
+    background-color: wheat;
+    height: 30px;
 }
