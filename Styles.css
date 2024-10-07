@@ -1,5 +1,5 @@
 html{
-    background-color: aqua;
+    background-color:plum;
 }
 p{
     color:maroon ;
@@ -30,8 +30,26 @@ li{
 .intro{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 80px;
+    align-items: start;
+    gap: 40px;
+}
+button{
+    background-color: blue;
+    border: none;
+    color:white;
+    padding: 15px 32px;
+    border-radius: 8px;
+
+}
+button:hover{
+    background-color: violet;
+
+}
+button:active{
+    background-color: indigo;
+}
+.intro-image{
+    border-radius: 16px;
 }
 .services{
     background-color: beige;
