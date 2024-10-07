@@ -52,7 +52,7 @@ button:active{
     border-radius: 16px;
 }
 .services{
-    background-color: beige;
+    background-color: peachpuff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,14 +64,18 @@ button:active{
     flex-wrap: wrap;
     gap: 80px;
     align-items: center;
+    justify-content: center;
 }
 .service{
-    border: 6px solid yellow;
+    border: 6px solid plum;
     border-radius: 30%;
     padding: 20px;
     height: 200px;
     width: 200px;
-    background-color: darkgoldenrod;
+    background-color: purple;
+
+.icon{
+    margin:20px auto;
 }
 .quote{
     background-color: darkslategrey;
